@@ -1,0 +1,46 @@
+body {
+    font-family: 'Arial', sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f8ff;
+}
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.upload-area {
+    border: 2px dashed #4CAF50;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.preview {
+    max-width: 300px;
+    margin: 20px auto;
+}
+.preview img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+button:hover {
+    background-color: #45a049;
+}
+button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}

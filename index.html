@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ekam | Bhavy Sharma</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Can Ekam will help You??</h1>
+        <p>Transform your photos into Studio Ghibli art style!</p>
+        
+        <div class="upload-area" id="dropZone">
+            <p>Drop your image here or</p>
+            <input type="file" id="fileInput" accept="image/*" style="display: none;">
+            <button onclick="document.getElementById('fileInput').click()">Choose File</button>
+        </div>
+
+        <div class="preview" id="imagePreview">
+            <!-- Preview image will be displayed here -->
+        </div>
+
+        <button id="convertBtn" disabled>Convert to Ghibli Style</button>
+
+        <div class="preview" id="resultPreview">
+            <!-- Converted image will be displayed here -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
